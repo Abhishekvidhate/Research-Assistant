@@ -1,11 +1,11 @@
 import streamlit as st
 from search.chain import chains  # Import the combined chain from chain.py
 
-# # Accessing the environment variables
-# LANGCHAIN_API_KEY = st.secrets["LANGCHAIN_API_KEY"]
-# GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
-# TAVILY_API_KEY = st.secrets["TAVILY_API_KEY"]
-# LANGCHAIN_PROJECT = st.secrets["LANGCHAIN_PROJECT"]
+# Accessing the environment variables
+LANGCHAIN_API_KEY = st.secrets["LANGCHAIN_API_KEY"]
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
+TAVILY_API_KEY = st.secrets["TAVILY_API_KEY"]
+LANGCHAIN_PROJECT = st.secrets["LANGCHAIN_PROJECT"]
 
 # Page configuration
 st.set_page_config(page_title="Research Assistant", page_icon=":mag:", layout="wide")
