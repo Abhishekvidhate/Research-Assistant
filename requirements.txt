@@ -1,0 +1,13 @@
+langchain
+langsmith
+langserve
+langchain-groq
+langchain-core
+langchain-community
+uvicorn
+fastapi
+python-dotenv
+requests
+beautifulsoup4
+tavily-python
+streamlit
