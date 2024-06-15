@@ -8,8 +8,9 @@ Research Assistant is deployed on **Streamlit Cloud**, utilizing streamlit commu
 ## APP
 
 [Research Assistant hosted on Streamlit Cloud Application's working link](https://research-assistant-aves.streamlit.app/) 
+![image](https://github.com/Abhishekvidhate/Research-Assistant/assets/120262589/1370f851-8b01-4e3e-a0a5-43548f7cf4c8)
 
-Demon video :
+### Demon video :
 
 [Google Drive video link](https://drive.google.com/file/d/1TuMz2GVPJFLGkmI28bMIIYaJP3zC8Gql/view?usp=drive_link)
 
