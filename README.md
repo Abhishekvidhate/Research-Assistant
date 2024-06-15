@@ -50,5 +50,5 @@ To set up and run the project, follow these steps:
 
 1. **Clone the Repository:**
    ```bash
-   git clone [<repository-url>](https://github.com/Abhishekvidhate/Research-Assistant.git)
+   git clone https://github.com/Abhishekvidhate/Research-Assistant.git
    cd research-assistant
