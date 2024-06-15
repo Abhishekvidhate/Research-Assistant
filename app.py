@@ -86,14 +86,14 @@ elif page == "About":
     st.markdown('<h1 class="title">About Research Assistant</h1>', unsafe_allow_html=True)
     st.markdown("""
     ### What is this tool?
-    The Research Assistant is a powerful tool designed to help you with your research by providing accurate and relevant answers to your questions. It leverages state-of-the-art machine learning and natural language processing technologies.
+    The Research Assistant is a powerful tool designed to help you with your research by providing accurate and relevant answers to your questions.
 
     ### How does it work?
-    This tool is powered by a large language model (LLM) Agent developed using LLAMA-3 with GROQ's LPU and servers. 
+    This tool is powered by a large language model (LLM) Agent developed using LLAMA-3 with GROQ's LPU and servers for fast inference of answer , visit Github Repo to study more about Assistant [GitHub Repo](https://github.com/Abhishekvidhate/Research-Assistant)") 
 
     ### Benefits for Researchers
-    - **Quick Answers:** Get immediate answers to your research questions. As by using GROQ's LPU ( language processing unit ) , LLM responses are super fast , fastest in market
-    - **Accurate Information:** Leverage the power of advanced AI to get reliable information.
+    - **Quickest Answers:** Get immediate answers to your research questions. As by using GROQ's LPU ( language processing unit ) , LLM responses are super fast , fastest in market
+    - **Accurate Information:** Leverage the power of advanced AI to get reliable information along with Web/Internet Search Capabilities
     - **Ease of Use:** Simple interface that allows you to input your questions and get answers with ease.
     """)
 
@@ -109,15 +109,6 @@ with st.sidebar.expander("How to Use"):
                 '<img src="https://th.bing.com/th/id/OIP.vFkTHeEKCojrk3gbVeyZ-wAAAA?rs=1&pid=ImgDetMain" alt="Science Flask" width="50">'
                 '</div>',
                 unsafe_allow_html=True)
-
-# # Adding the illustration to the sidebar
-# st.sidebar.markdown("""
-# <div class="illustration">
-#     <img src="https://th.bing.com/th/id/OIP.vFkTHeEKCojrk3gbVeyZ-wAAAA?rs=1&pid=ImgDetMain" alt="Science Flask" width="50">
-#     <img src="https://clipground.com/images/atom-clipart-6.jpg" alt="Atom" width="50">
-#     <img src="https://static.vecteezy.com/system/resources/previews/000/139/901/original/geometry-and-mathematics-tool-set-vector.jpg" alt="Mathematics" width="50">
-# </div>
-# """, unsafe_allow_html=True)
 
 
 # Footer in the sidebar
