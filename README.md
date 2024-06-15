@@ -1,14 +1,15 @@
 # Research Assistant 
 
 ## Overview
-This project is a Research Assistant application that leverages the power of large language models (LLMs), specifically LLAMA-3, to perform comprehensive web searches and generate detailed reports based on user queries. It integrates multiple components to facilitate automated research, including web scraping, search queries, and report generation, all within a Streamlit web application.
+Research Assistant application that leverages the power of large language models (LLMs), specifically LLAMA-3, to perform comprehensive web searches and generate detailed reports based on user queries. It integrates multiple components to facilitate automated research, including web scraping, search queries, and report generation, all within a Streamlit web application.
+
+Research Assistant is deployed on **Streamlit Cloud**, utilizing streamlit community cloud servers and computing. For **LLAMA-3** computation and processing, I used **[GROQ](https://groq.com/)**, Fastest AI inference
 
 ## Features
-- **Web Search:** Performs web searches using DuckDuckGo and Tavily APIs to retrieve relevant information.
+- **Real-time Web Search:** Performs web searches using DuckDuckGo and Tavily APIs to retrieve relevant information.
 - **Web Scraping:** Extracts text from web pages using BeautifulSoup.
 - **Search Query Generation:** Utilizes `ChatPromptTemplate` to create optimized search queries.
 - **Report Generation:** Generates detailed research reports, bibliographies, and outlines using templates.
-- **Streamlit Integration:** Provides a user-friendly web interface to interact with the system.
 
 ## Components
 The project consists of three main components: `web.py`, `writer.py`, and `chain.py`.
