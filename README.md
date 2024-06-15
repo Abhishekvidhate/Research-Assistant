@@ -68,13 +68,13 @@ To set up and run the project, follow these steps:
    pip install -r requirements.txt
 
 3. **Set Environment Variables(for windows command prompt):**
-   '''bash
+   ```bash
    set LANGCHAIN_API_KEY=your_langchain_api_key
    set GROQ_API_KEY=your_groq_api_key
    set LANGCHAIN_PROJECT=your_langchain_project
    set TAVILY_API_KEY=your_tavily_api_key
 
-4. **Run the Streamlit Application:**
+5. **Run the Streamlit Application:**
    '''bash
    streamlit run app.py
 
