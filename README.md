@@ -5,7 +5,17 @@ Research Assistant application that leverages the power of large language models
 
 Research Assistant is deployed on **Streamlit Cloud**, utilizing streamlit community cloud servers and computing. For **LLAMA-3** computation and processing, I used **[GROQ](https://groq.com/)**, Fastest AI inference
 
+## APP
+
+[Research Assistant hosted on Streamlit Cloud Application's working link](https://research-assistant-aves.streamlit.app/) 
+
+Demon video :
+
+
 ## Features
+- **LangSmith Tracing:** Uses Langsmith for tracing, monitoring and etc LLMOps tasks
+![image](https://github.com/Abhishekvidhate/Research-Assistant/assets/120262589/29c4561c-7b25-4411-aa29-d1b877f8815e)
+
 - **Real-time Web Search:** Performs web searches using DuckDuckGo and Tavily APIs to retrieve relevant information.
 - **Web Scraping:** Extracts text from web pages using BeautifulSoup.
 - **Search Query Generation:** Utilized LANGCHAIN Ecosystem to create optimized search queries 
@@ -52,3 +62,19 @@ To set up and run the project, follow these steps:
    ```bash
    git clone https://github.com/Abhishekvidhate/Research-Assistant.git
    cd research-assistant
+
+2. **Install Dependencies:**
+   ```bash
+   pip install -r requirements.txt
+
+3. **Set Environment Variables(for windows command prompt):**
+   '''bash
+   set LANGCHAIN_API_KEY=your_langchain_api_key
+   set GROQ_API_KEY=your_groq_api_key
+   set LANGCHAIN_PROJECT=your_langchain_project
+   set TAVILY_API_KEY=your_tavily_api_key
+
+4. **Run the Streamlit Application:**
+   '''bash
+   streamlit run app.py
+
