@@ -11,6 +11,7 @@ Research Assistant is deployed on **Streamlit Cloud**, utilizing streamlit commu
 
 Demon video :
 
+[Google Drive video link](https://drive.google.com/file/d/1TuMz2GVPJFLGkmI28bMIIYaJP3zC8Gql/view?usp=drive_link)
 
 ## Features
 - **LangSmith Tracing:** Uses Langsmith for tracing, monitoring and etc LLMOps tasks
