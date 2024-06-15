@@ -89,7 +89,7 @@ elif page == "About":
     The Research Assistant is a powerful tool designed to help you with your research by providing accurate and relevant answers to your questions.
 
     ### How does it work?
-    This tool is powered by a large language model (LLM) Agent developed using LLAMA-3 with GROQ's LPU and servers for fast inference of answer , visit Github Repo to study more about Assistant [GitHub Repo](https://github.com/Abhishekvidhate/Research-Assistant)") 
+    This tool is powered by a large language model (LLM) Agent developed using LLAMA-3 with GROQ's LPU and servers for fast inference of answer , visit Github Repo to study more about Assistant : [GitHub Repo](https://github.com/Abhishekvidhate/Research-Assistant) 
 
     ### Benefits for Researchers
     - **Quickest Answers:** Get immediate answers to your research questions. As by using GROQ's LPU ( language processing unit ) , LLM responses are super fast , fastest in market
