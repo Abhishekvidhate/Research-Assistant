@@ -8,8 +8,8 @@ Research Assistant application that leverages the power of large language models
 Research Assistant is deployed on **Streamlit Cloud**, utilizing streamlit community cloud servers and computing. For **LLAMA-3** computation and processing, I used **[GROQ](https://groq.com/)**, Fastest AI inference
 
 ## APP : 
-#### [Research Assistant hosted on Streamlit Cloud Application's working link](https://research-assistant-aves.streamlit.app/)
 
+[Research Assistant hosted on Streamlit Cloud Application's working link](https://research-assistant-aves.streamlit.app/)
 
 ### Demon video :
 
