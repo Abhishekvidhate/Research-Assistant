@@ -56,7 +56,7 @@ The Streamlit web application that provides a user interface for interacting wit
 - **Integration with `chain.py`:** Uses the combined chain to process user queries and generate results.
 
 ## Installation
-To set up and run the project, follow these steps:
+To set up and run the project locally, follow these steps:
 
 1. **Clone the Repository:**
    ```bash
@@ -75,6 +75,14 @@ To set up and run the project, follow these steps:
    set TAVILY_API_KEY=your_tavily_api_key
 
 5. **Run the Streamlit Application:**
-   '''bash
+   ```bash
    streamlit run app.py
+
+The App will run on local host
+
+
+## Acknowledgements
+- [LangChain](https://www.langchain.com/) for the APIs and tools.
+- [LangSmith](https://www.langchain.com/langsmith) for all response and workflow tracing & monitoring of LLM/LLAMA-3 & project
+- [Streamlit](https://www.streamlit.io/) for the web application framework.
 
