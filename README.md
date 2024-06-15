@@ -8,7 +8,7 @@ Research Assistant is deployed on **Streamlit Cloud**, utilizing streamlit commu
 ## Features
 - **Real-time Web Search:** Performs web searches using DuckDuckGo and Tavily APIs to retrieve relevant information.
 - **Web Scraping:** Extracts text from web pages using BeautifulSoup.
-- **Search Query Generation:** Utilizes `ChatPromptTemplate` to create optimized search queries.
+- **Search Query Generation:** Utilized LANGCHAIN Ecosystem to create optimized search queries 
 - **Report Generation:** Generates detailed research reports, bibliographies, and outlines using templates.
 
 ## Components
@@ -50,5 +50,5 @@ To set up and run the project, follow these steps:
 
 1. **Clone the Repository:**
    ```bash
-   git clone <repository-url>
+   git clone [<repository-url>](https://github.com/Abhishekvidhate/Research-Assistant.git)
    cd research-assistant
